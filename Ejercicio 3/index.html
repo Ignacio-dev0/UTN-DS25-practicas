@@ -1,0 +1,85 @@
+<!-- Ejercicio 3: Tabla de Colores
+Escribir un sitio web en HTML que contenga una tabla de 4 columnas por 4 filas. Aplicar las siguientes reglas:
+-Borde a todos los elementos de la tabla.
+-Un color de fondo para todos los <td>.
+-Otro color de fondo para la celda de la intersección entre la segunda fila y la tercer columna.
+-Otro color de fondo para toda la segunda fila.
+-Otro color de fondo para los elementos de la tercer columna.
+-Otro color de fondo en común para para la primer y la última celda.
+-Otro color de fondo para la celda de la intersección entre la tercer fila y la segunda columna. -->
+
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 3</title>
+    <style>
+        table, tr,td {
+            border: 1px solid black;
+            padding: 40px;
+            margin: auto; ;
+            
+        }
+        table {
+            border-collapse: collapse;
+            margin-top: 25%;
+        }
+        div {
+            margin: 0 auto;
+            width: 50%;
+        }
+        table {
+            background-color: lightblue;
+        }
+        #int23 {
+            background-color: rgb(255, 255, 0);
+        }
+        #f2 {
+            background-color: rgb(240, 3, 3);
+        }
+        .c3 {
+            background-color: rgb(0, 255, 0);
+        }
+        .celda {
+            background-color: rgb(167, 0, 44);
+        }
+        #int32 {
+            background-color: rgb(0, 0, 0);
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+    <table>
+        <tr>
+            <td class="celda"></td>
+            <td></td>
+            <td class="c3"></td>
+            <td></td>
+        </tr>
+        <tr id="f2">
+            <td></td>
+            <td></td>
+            <td id="int23" class="c3"></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td id="int32"></td>
+            <td class="c3"></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td class="c3"></td>
+            <td class="celda"></td>
+        </tr>
+       
+    </table>
+    </div>
+</body>
+</html>
