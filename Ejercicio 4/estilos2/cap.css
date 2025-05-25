@@ -1,0 +1,29 @@
+.container {
+    background-color: lightblue;
+    border-radius: 20px;
+    padding: 0 40px 40px;
+    margin: 0 auto;
+    width: 70%;
+}
+.contenido {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px 40px;
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    gap: 40px;
+
+}
+.links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+a {
+    text-decoration: none;
+    font-size: large;
+    color: blue;
+    margin: 0 auto;
+}
