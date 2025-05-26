@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    
+}   
+body {
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.cabecera {
+    background-image: url(../images/banner.jpg);
+    display: flex;
+}
+.cabecera h1 {
+    font-size: 2em;
+    margin: 0;
+    padding: 20px;
+    color: lightgray;
+    background-color: rgba(0, 0, 0,0.5);
+    width: 100%;
+}
+.cabecera img:hover {
+
+    transform: scale(1.1);
+    transition: 0.5s;
+
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #333;
+    justify-content: space-around;
+  
+}
+.menu ul li {
+    padding: 15px;
+    flex-grow: 1;
+    text-align: center;
+    
+    
+}
+.menu ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    display: block;
+    
+}
+.menu ul li a:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    background-color: #555;
+}
+
+
+
+.contenido {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 20px 15% 0px 15%;
+    gap: 20px;
+    background-color: #555;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    
+}
+
+
+
+.pie {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

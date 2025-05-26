@@ -16,4 +16,6 @@ Escribir un sitio web en HTML para una Librería. Debe contener:
    - Sexo (radio)
    - Tema Favorito (select de los temas)
    - Botón (submit)
+5. Contacto: Dirección y datos de contacto (teléfonos, email). Formulario de contacto.
 
+**IMPORTANTE: Repasar requerimientos y hacer wireframes antes de comenzar con el código.**
